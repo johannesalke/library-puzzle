@@ -19,18 +19,13 @@ class PuzzleBox:
 
 
     def __getitem__(self,index):
-        if index == 512:
-            print("I will do anything")
-            return
-        print("Look at that!")
 
 
-        if index == 666:
-            for i in range(10000):
-                print("You have broken the taboo.")
-                print("Blood follows blood.")
-                print("Your doom is assured.")
-                sle
+        numpad_function(index)
+
+                                    
+                
+                
 
     def __contains__(self, value):
         if value == "Nothing":
@@ -44,3 +39,28 @@ class PuzzleBox:
 
 
 
+
+
+
+
+
+
+
+
+
+def numpad_function(index):
+        if index == 512:
+            print("I will do anything")
+            return
+        print("Look at that!")
+
+
+        if index == 666:
+            try:
+                for i in range(10000):
+                    print("You have broken the taboo.")
+                    print("Blood follows blood.")
+                    print("Your doom is assured.")
+            except KeyboardInterrupt:
+                for i in range(10):
+                    print("Escape?")

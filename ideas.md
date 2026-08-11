@@ -6,3 +6,12 @@ Struct/Interface definition that tells the user which methods exist. The user th
 
 * A ReadMe() Function on the module object? 
 
+
+* The [] index selector interface as a numberpad. 
+
+
+
+
+
+
+
