@@ -7,7 +7,17 @@ Struct/Interface definition that tells the user which methods exist. The user th
 * A ReadMe() Function on the module object? 
 
 
-* The [] index selector interface as a numberpad. 
+* The [] index selector interface as a numberpad.
+
+
+
+
+
+
+
+
+How to run the program interactively:
+python -i your_script.py
 
 
 
