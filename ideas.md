@@ -20,7 +20,11 @@ How to run the program interactively:
 python -i your_script.py
 
 
-
+Puzzles:
+Three statements. You need to figure out which of them is true. 
+1. "What's in there is [alive]" => Use the __contains__ function.
+2. "What's in there is [safe]" 
+3. "What's in there is [red]"
 
 
 
